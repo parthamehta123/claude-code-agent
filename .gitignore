@@ -1,0 +1,8 @@
+.env
+demo
+agent.log
+bug_report.md
+*.code-workspace
+venv/
+__pycache__/
+*.pyc
