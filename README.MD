@@ -50,8 +50,16 @@ No `pip install`, no `venv`, no `requirements.txt` — `uv` handles dependencies
 
 ```
 ├── main.py              # The complete agent (single file)
-└── tools/               # Individual tool implementations (reference)
-    ├── read_file.py
-    ├── list_files.py
-    └── edit_file.py
+├── tools/               # Individual tool implementations (reference)
+│   ├── read_file.py
+│   ├── list_files.py
+│   └── edit_file.py
+└── examples/            # Step-by-step build progression
+    ├── 01_basic_script.py
+    ├── 02_agent_class.py
+    ├── 03_define_tools.py
+    ├── 04_implement_tool_execution.py
+    ├── 05_add_chat_method.py
+    ├── 06_create_interactive_cli.py
+    └── 07_add_personality.py
 ```
